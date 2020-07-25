@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Beritas</h1>
+            <h1 class="mb-2 bread">Berita</h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="{{route('welcome')}}">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="{{route('berita')}}">Berita <i class="ion-ios-arrow-forward"></i></a></span> <span>{{$berita->title}} <i></i></span></p>
           </div>
         </div>
