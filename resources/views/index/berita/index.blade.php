@@ -7,7 +7,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-2 bread">BERITA</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Berita <i class="ion-ios-arrow-forward"></i></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{{route('welcome')}}">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Berita <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
@@ -37,8 +37,9 @@
 		                <div class="d-flex align-items-center mt-4">
 			                <p class="mb-0"><a href="{{url('berita/'.$berita->id)}}" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
 			                <p class="ml-auto mb-0">
-			                	<a href="#" class="mr-2">Admin</a>
-			                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+			                	<a href="#" class="mr-2">{{$berita->author_name}}</a>
+			                	<br>
+			                	<a href="#" class="meta-chat"><span> {{$berita->created_at}}</span> </a>
 			                </p>
 		                </div>
 		              </div>

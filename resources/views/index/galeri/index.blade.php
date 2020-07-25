@@ -1,13 +1,13 @@
 @extends('index.layouts.app')
 
 @section('content')
-<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_8.jpg')}}');">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_11.jpg')}}');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-2 bread">GALERI</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Galeri <i class="ion-ios-arrow-forward"></i></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{{route('welcome')}}">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Galeri <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>

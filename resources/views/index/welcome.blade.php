@@ -545,12 +545,12 @@
               </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">{{$berita->title}}</a></h3>
-                <p>{{$berita->deskripsi}}</p>
+                <p>{{Str::limit("$berita->deskripsi", 60, ' ...')}}</p>
                 <div class="d-flex align-items-center mt-4">
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                  <p class="mb-0"><a href="{{url('berita/'.$berita->id)}}" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                   <p class="ml-auto mb-0">
-                    <a href="#" class="mr-2">Admin</a>
-                    <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                    <a href="#" class="mr-2">{{$berita->author_name}}</a>
+                    <a href="#" class="meta-chat"><span class="icon-chat"></span> </a>
                   </p>
                 </div>
               </div>

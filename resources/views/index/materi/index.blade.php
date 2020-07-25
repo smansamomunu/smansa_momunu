@@ -5,13 +5,13 @@
 @endsection
 
 @section ('content')
-<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_8.jpg')}}');">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_10.jpg')}}');">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-center justify-content-center">
       <div class="col-md-9 ftco-animate text-center">
-        <h1 class="mb-2 bread">GALERI</h1>
-        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Galeri <i class="ion-ios-arrow-forward"></i></span></p>
+        <h1 class="mb-2 bread">MATERI</h1>
+        <p class="breadcrumbs"><span class="mr-2"><a href="{{route('welcome')}}">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Materi <i class="ion-ios-arrow-forward"></i></span></p>
       </div>
     </div>
   </div>
@@ -20,6 +20,7 @@
 <section style="padding-top: 10px;" class="ftco-section bg-light">
     <div class="container">
     <div class="view-account">
+        <p><span>Halaman ini berisi tentang materi-materi dari berbagai mata pelajaran dalam beberapa bentuk termasuk didalamnya:  <b>BUKU, MODUL, TUGAS, </b>dan sebagainya. </span></p>
         <section class="module">
             <div class="module-inner">
                 <div class="side-bar">
