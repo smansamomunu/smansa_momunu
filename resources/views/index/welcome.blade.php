@@ -550,7 +550,7 @@
                   <p class="mb-0"><a href="{{url('berita/'.$berita->id)}}" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                   <p class="ml-auto mb-0">
                     <a href="#" class="mr-2">{{$berita->author_name}}</a>
-                    <a href="#" class="meta-chat"><span class="icon-chat"></span> </a>
+                    <a href="#" class="meta-chat"><span>{{$berita->created_at}}</span> </a>
                   </p>
                 </div>
               </div>
@@ -616,7 +616,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url({{asset('index/images/teacher-4.jpg')}})">
+                  <div class="user-img mr-4" style="background-image: url('{{asset('index/images/teacher-4.jpg')}}'')">
                   </div>
                   <div class="text ml-2">
                     <span class="quote d-flex align-items-center justify-content-center">
