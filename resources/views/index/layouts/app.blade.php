@@ -86,12 +86,12 @@
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2">Berita Terkini</h2>
               <div class="block-21 mb-4 d-flex">
-                <a href="" class="blog-img mr-4" style="background-image: url('_blank');"></a>
+                <a href="{{url('berita/'.$berita->id)}}" class="blog-img mr-4" style="background-image: url('{{url('/index/images/beritas/'.$berita->img)}}');"></a>
                 <div class="text">
-                  <h3 class="heading"><a href=""> ..... </a></h3>
+                  <h3 class="heading"><a href="{{url('berita/'.$berita->id)}}"> {{Str::limit("$berita->deskripsi", 25, ' ...')}} </a></h3>
                   <div class="meta">
-                    <div><a><span class="icon-calendar"></span> Tanggal</a></div>
-                    <div><a><span class="icon-person"></span> Nama</a></div>
+                    <div><a><span class="icon-calendar"></span> {{$berita->created_at}}</a></div>
+                    <div><a><span class="icon-person"></span> {{$berita->author_name}}</a></div>
                   </div>
                 </div>
               </div>
