@@ -86,12 +86,12 @@
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2">Berita Terkini</h2>
               <div class="block-21 mb-4 d-flex">
-                <a href="{{url('berita/'.$berita->id)}}" class="blog-img mr-4" style="background-image: url('{{url('/index/images/beritas/'.$berita->img)}}');"></a>
+                <a href="{{route('berita')}}" class="blog-img mr-4" style="background-image: url('{{url('/index/images/clipart_news2.png')}}');"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="{{url('berita/'.$berita->id)}}"> {{Str::limit("$berita->deskripsi", 25, ' ...')}} </a></h3>
+                  <h3 class="heading"><a href="{{url('berita/')}}"> Berita </a></h3>
                   <div class="meta">
-                    <div><a><span class="icon-calendar"></span> {{$berita->created_at}}</a></div>
-                    <div><a><span class="icon-person"></span> {{$berita->author_name}}</a></div>
+                    <div><a><span class="icon-calendar"></span> </a></div>
+                    <div><a><span class="icon-person"></span> </a></div>
                   </div>
                 </div>
               </div>
@@ -116,6 +116,7 @@
                 <li class="ftco-animate"><a href="https://twitter.com/SMomunu" target="_blank"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.facebook.com/smansa.momunu" target="_blank"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.instagram.com/smansa_momunu/" target="_blank"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCOHTzTwn-rvqWKFq3RnLFmw" target="_blank"><span class="icon-youtube"></span></a></li>
               </ul>
             </div>
           </div>

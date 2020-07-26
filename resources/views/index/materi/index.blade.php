@@ -46,7 +46,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th class="type">Jenis File</th>
+                                        
                                         <th class="name truncate">Nama File</th>
                                         <th class="date">Tgl Unggah</th>
                                         <th class="size">Ukuran</th>
@@ -54,7 +54,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="type"><i class="fa fa-file-text-o text-primary"></i></td>
+                                        
                                         <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
                                         <td class="date">Sep 23, 2015</td>
                                         <td class="size">18 KB</td>
