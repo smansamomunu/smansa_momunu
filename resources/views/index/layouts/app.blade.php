@@ -56,7 +56,7 @@
             <a class="nav-link" href="#">Unduhan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Masuk</a>
+            <a class="nav-link" href="{{route('login')}}">Masuk</a>
           </li>
 
         </ul>
