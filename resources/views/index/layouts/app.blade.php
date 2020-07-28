@@ -77,7 +77,7 @@
                 <ul>
                   <li><span class="icon icon-map-marker"></span><span class="text">Desa Lamadong Dua, Kec. Momunu, Kab. Buol, 94565</span></li>
                   <li><a href="#"><span class="icon icon-phone"></span><span class="text">+62 822 9141 3079</span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope">        </span> <span class="text">   info@sman1momunu.sch.id</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">   info@sman1momunu.sch.id</span></a></li>
                 </ul>
               </div>
             </div>
@@ -116,7 +116,7 @@
                 <li class="ftco-animate"><a href="https://twitter.com/SMomunu" target="_blank"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.facebook.com/smansa.momunu" target="_blank"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.instagram.com/smansa_momunu/" target="_blank"><span class="icon-instagram"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCOHTzTwn-rvqWKFq3RnLFmw" target="_blank"><span class="icon-youtube"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCOHTzTwn-rvqWKFq3RnLFmw" target="_blank"><span class="icon-youtube-play"></span></a></li>
               </ul>
             </div>
           </div>
