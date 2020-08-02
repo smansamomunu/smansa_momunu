@@ -145,8 +145,8 @@ $(document).ready(function(){
       var author_name = "{{Auth::user()->name}}";
       var author_job = 'Admin';
       $.ajax({
-        url:'{{ url("admin.berita.store") }}',
-        type:'patch',
+        url:'{{ url("admin/berita/".$berita->id."/update")}}',
+        type:'put',
         data:{"image":response, _token:_token, title, deskripsi, author_name, author_job},
         dataType:"json",
         success:function(data)

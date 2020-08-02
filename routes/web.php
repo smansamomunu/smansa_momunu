@@ -30,6 +30,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::namespace('Admin')->name('admin.')->group(function(){
 	Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'role_admin']], function(){
 		Route::get('/home', 'HomeController@index')->name('home');
-		Route::resource('/berita', 'BeritaController');
+		Route::get('/berita', 'BeritaController@index')->name('berita.index');
+		Route::get('/berita/create', 'BeritaController@create')->name('berita.create');
+		Route::post('/berita/store', 'BeritaController@store')->name('berita.store');
+		Route::get('/berita/{id}/edit', 'BeritaController@edit')->name('berita.edit');
+		Route::put('/berita/{id}/update', 'BeritaController@update')->name('berita.update');
 	});
 });

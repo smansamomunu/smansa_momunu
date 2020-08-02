@@ -93,7 +93,7 @@ class BeritaController extends Controller
     {
         if($request->ajax())
            {
-            $oldImage = Teamwork::where('id', $request->id_image)->select('img')->first();
+            $oldImage = Berita::where('id', $id)->select('img')->first();
             $image_data = $request->image;
             $image_array_1 = explode(";", $image_data);
             $image_array_2 = explode(",", $image_array_1[1]);
@@ -101,15 +101,15 @@ class BeritaController extends Controller
             $image_name = time() . '.png';
             $upload_path = public_path('index/images/beritas/' . $image_name);
             file_put_contents($upload_path, $data);
-            File::delete(public_path('assets/images/teamwork/' . $oldImage->img));
+            File::delete(public_path('index/images/beritas/' . $oldImage->img));
 
-            $berita = new Berita;
+            $berita = Berita::findOrFail($id);
             $berita->title = $request->title;
             $berita->deskripsi = $request->deskripsi;
             $berita->img = $image_name;
             $berita->author_name = $request->author_name;
             $berita->author_job = $request->author_job;
-            $berita->save();
+            $berita->update();
             return response()->json(['path' => 'sukses']);
            }
     }
