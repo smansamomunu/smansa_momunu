@@ -10,7 +10,7 @@
 @endsection
 
 @section('content')
-<main>
+<main style="padding-top: 40px;">
     <div class="container-fluid mb-5">
 
       <!-- Section: Basic examples -->
@@ -19,7 +19,7 @@
         <!-- Gird column -->
         <div class="col-md-12">
 
-          <h5 class="my-4 dark-grey-text font-weight-bold">Material DataTable</h5>
+          <h5 class="my-4 dark-grey-text font-weight-bold">Daftar Berita</h5>
 
           <div class="card">
             <div class="card-body">
@@ -48,7 +48,10 @@
                     <td>{{$no}}</td>
                     <td>{{$berita->title}}</td>
                     <td>{{$berita->updated_at}}</td>
-                    <td>61</td>
+                    <td>
+                      <a href="{{url('admin/berita/'.$berita->id.'/edit')}}" class="btn-floating btn-primary"><i class="fas fa-edit"></i></a>
+                      <a class="btn-floating btn-secondary"><i class="fas fa-trash-alt"></i></a>
+                    </td>
                   </tr>
                   @endforeach
                 </tbody>
