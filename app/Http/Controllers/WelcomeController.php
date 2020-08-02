@@ -8,7 +8,7 @@ use App\Berita;
 class WelcomeController extends Controller
 {
     public function index(){
-    	$beritas = Berita::get();
-    	return view ('index.welcome', ['beritas'=>$beritas]);
+    	$berita = Berita::get();
+    	return view ('index.welcome', ['beritas'=>$berita]);
     }
 }

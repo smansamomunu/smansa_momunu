@@ -1,10 +1,6 @@
-@extends ('index.layouts.app')
+@extends('index.layouts.app')
 
-@section('css')
-
-@endsection
-
-@section ('content')
+@section('content')
 <section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_10.jpg')}}');">
   <div class="overlay"></div>
   <div class="container">
@@ -40,9 +36,6 @@
                             <li><a href="#"><span class="fa fa-cog"></span> Geografi</a></li>
                             <li><a href="#"><span class="fa fa-cog"></span> Seni Budaya</a></li>
                             <li><a href="#"><span class="fa fa-cog"></span> Prakarya</a></li>
-                            
-                            
-
                         </ul>
                     </nav>
                 </div>
@@ -53,7 +46,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th class="type"></th>
+                                        
                                         <th class="name truncate">Nama File</th>
                                         <th class="date">Tgl Unggah</th>
                                         <th class="size">Ukuran</th>
@@ -61,7 +54,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="type"><i class="fa fa-file-text-o text-primary"></i></td>
+                                        
                                         <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
                                         <td class="date">Sep 23, 2015</td>
                                         <td class="size">18 KB</td>
@@ -83,6 +76,6 @@
 <script>
 $(function(){
     $("[data-toggle='tooltip']").tooltip();
-})
+ })
 </script>
 @endsection
