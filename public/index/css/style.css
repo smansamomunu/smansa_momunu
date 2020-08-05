@@ -9916,3 +9916,11 @@ textarea.form-control {
   }
 }
 /*--------- end simple sidebar-------*/
+
+
+/*tabel materi*/
+@media (max-width: 450px) {
+  .text12{
+    font-size: 12px;
+  }
+}

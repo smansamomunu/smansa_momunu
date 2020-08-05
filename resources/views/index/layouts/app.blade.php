@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
       <a class="navbar-brand" href="#"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span style="background-image: url('{{url('index/icon/list.png')}}');" class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -87,10 +87,8 @@
               <div class="block-21 mb-4 d-flex">
                 <a href="{{route('berita')}}" class="blog-img mr-4" style="background-image: url('{{url('/index/images/clipart_news2.png')}}');"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="{{url('berita/')}}"> Berita </a></h3>
+                  <h3 class="heading"><a href="{{url('berita/')}}"> Index Berita </a></h3>
                   <div class="meta">
-                    <div><a><span class="icon-calendar"></span> </a></div>
-                    <div><a><span class="icon-person"></span> </a></div>
                   </div>
                 </div>
               </div>
