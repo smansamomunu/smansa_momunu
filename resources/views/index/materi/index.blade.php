@@ -19,16 +19,16 @@
         <p><span>Halaman ini berisi tentang materi-materi dari berbagai mata pelajaran dalam beberapa bentuk termasuk didalamnya:  <b>BUKU, MODUL, TUGAS, </b>dan sebagainya. </span></p>
         <section class="module">
             <div class="module-inner">
-                <div class="side-bar">
+                <div class="side-bar bg-dark">
                     <nav class="side-menu">
                         <ul class="nav">
-                            <li><a href="#"><span class="fa fa-cog"></span> PAI</a></li>
-                            <li><a href="#"><span class="fa fa-cog"></span> PKN</a></li>
-                            <li><a href="#"><span class="fa fa-user"></span> B. Indonesia</a></li>
-                            <li><a href="#"><span class="fa fa-cog"></span> B. Inggris</a></li>
-                            <li><a href="#"><span class="fa fa-cog"></span> Matematika</a></li>
-                            <li><a href="#"><span class="fa fa-cog"></span> Sejarah</a></li>
-                            <li><a href="#"><span class="fa fa-cog"></span> Fisika</a></li>
+                            <li><a href="#"><span class="fa fa-moon-o"></span> PAI</a></li>
+                            <li><a href="#"><span class="fa fa-balance-scale"></span> PKN</a></li>
+                            <li><a href="#"><span class="fa fa-comments"></span> B. Indonesia</a></li>
+                            <li><a href="#"><span class="fa fa-asl-interpreting"></span> B. Inggris</a></li>
+                            <li><a href="#"><span class="fa fa-calculator"></span> Matematika</a></li>
+                            <li><a href="#"><span class="fa fa-history"></span> Sejarah</a></li>
+                            <li><a href="#"><span class="fa fa-"></span> Fisika</a></li>
                             <li><a href="#"><span class="fa fa-cog"></span> Kimia</a></li>
                             <li><a href="#"><span class="fa fa-cog"></span> Biologi</a></li>
                             <li><a href="#"><span class="fa fa-cog"></span> Ekonomi</a></li>

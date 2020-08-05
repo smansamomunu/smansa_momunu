@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 
     <link rel="stylesheet" href="{{asset('index/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/animate.css')}}">
@@ -27,7 +28,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
       <a class="navbar-brand" href="#"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,33 +38,31 @@
           <li class="nav-item active">
             <a class="nav-link" href="{{route('welcome')}}">Beranda</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="{{route('profile')}}">Profil</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="{{route('akademik')}}">Akademik</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="{{route('berita')}}">Berita</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="{{route('galeri')}}">Galeri</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="{{route('materi')}}">Materi</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Unduhan</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="{{route('login')}}">Masuk</a>
           </li>
 
         </ul>
       </div>
-    </nav>
-    <!-- END nav -->
-    
+    </nav>    
     @yield('content')
 
     
@@ -144,6 +143,8 @@
   <script src="{{asset('index/js/jquery.animateNumber.min.js')}}"></script>
   <script src="{{asset('index/js/scrollax.min.js')}}"></script>
   <script src="{{asset('index/js/main.js')}}"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
+   
   <script type="text/javascript">
     $(function(){
     //fungsi dibawah hanya berjalan untuk semua tag <a> yang diawali (^) dengan hash (#)
