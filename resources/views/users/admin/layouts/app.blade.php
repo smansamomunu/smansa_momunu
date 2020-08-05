@@ -57,6 +57,30 @@ home.blade.php<!DOCTYPE html>
               <a href="{{route('admin.berita.index')}}" class="collapsible-header waves-effect"><i
                   class="w-fa fas fa-newspaper"></i>Berita</a>
             </li>
+            <li>
+              <a class="collapsible-header waves-effect arrow-r">
+                <i class="w-fa fas fa-list"></i>Akademik<i class="fas fa-angle-down rotate-icon"></i>
+              </a>
+              <div class="collapsible-body">
+                <ul>
+                  <li>
+                    <a href="{{route('admin.mapel.index')}}" class="waves-effect">Mata Pelajaran</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="collapsible-header waves-effect arrow-r">
+                <i class="w-fa fas fa-users"></i>Users<i class="fas fa-angle-down rotate-icon"></i>
+              </a>
+              <div class="collapsible-body">
+                <ul>
+                  <li>
+                    <a href="{{route('admin.guru.index')}}" class="waves-effect">Guru</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
 
           </ul>
         </li>

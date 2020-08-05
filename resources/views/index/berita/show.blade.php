@@ -20,7 +20,7 @@
           <div class="col-lg-8 ftco-animate">
             <h2 class="mb-3">{{$berita->title}} </h2>
               <img src="{{asset('index/images/beritas/'.$berita->img)}}" alt="" class="img-fluid">
-            <p>{{$berita->deskripsi}} <p style="margin-top: -15px;">Kontributor : <b>{{$berita->author_name}}</b> <span>| {{$berita->author_job}} </span><span>({{$berita->created_at}})</span></p></p>
+            <p>{!!$berita->deskripsi!!} <p style="margin-top: -15px;">Kontributor : <b>{{$berita->author_name}}</b> <span>| {{$berita->author_job}} </span><span>({{$berita->created_at}})</span></p></p>
             
           </div> <!-- .col-md-8 -->
 

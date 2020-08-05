@@ -1,0 +1,8 @@
+---
+
+deployment:
+
+    tasks:
+    
+    - export DEPLOYPATH=/home/n1017364/smansa_momunu_git
+    - /usr/bin/rsync -Paz * $DEPLOYPATH --delete

@@ -35,5 +35,18 @@ Route::namespace('Admin')->name('admin.')->group(function(){
 		Route::post('/berita/store', 'BeritaController@store')->name('berita.store');
 		Route::get('/berita/{id}/edit', 'BeritaController@edit')->name('berita.edit');
 		Route::put('/berita/{id}/update', 'BeritaController@update')->name('berita.update');
+
+		Route::get('/mapel', 'UserController@index')->name('mapel.index');
+
+		Route::get('/guru', 'UserController@guru_index')->name('guru.index');
+		Route::get('/guru/create', 'UserController@guru_create')->name('guru.create');
+		Route::post('/guru/store', 'UserController@guru_store')->name('guru.store');
 	});
+});
+
+Route::namespace('Guru')->name('guru.')->group(function(){
+    Route::group(['prefix' => 'guru', 'middleware' => ['auth', 'role_guru']], function(){
+        Route::get('/home', 'HomeController@index')->name('home');
+
+    });
 });

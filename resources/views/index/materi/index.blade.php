@@ -1,8 +1,8 @@
 @extends('index.layouts.app')
 
 @section('content')
-<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_10.jpg')}}');">
-  <div class="overlay"></div>
+<section class="hero-wrap hero-wrap-2" style="background-image: url('{{asset('index/images/bg_15.jpg')}}');">
+  <div class="vivid"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-center justify-content-center">
       <div class="col-md-9 ftco-animate text-center">
@@ -46,7 +46,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        
+
                                         <th class="name truncate">Nama File</th>
                                         <th class="date">Tgl Unggah</th>
                                         <th class="size">Ukuran</th>
@@ -54,7 +54,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        
+
                                         <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
                                         <td class="date">Sep 23, 2015</td>
                                         <td class="size">18 KB</td>
