@@ -36,28 +36,28 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('welcome') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('welcome')}}">Beranda</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('profile') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('profile')}}">Profil</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('akademik') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('akademik')}}">Akademik</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('berita') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('berita')}}">Berita</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('galeri') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('galeri')}}">Galeri</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('materi') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('materi')}}">Materi</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">Unduhan</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('login') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('login')}}">Masuk</a>
           </li>
 
