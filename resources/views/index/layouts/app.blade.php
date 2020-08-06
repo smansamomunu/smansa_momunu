@@ -36,7 +36,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item{{ request()->is('welcome') ? ' active' : ''}}">
+          <li class="nav-item{{ request()->is('/') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('welcome')}}">Beranda</a>
           </li>
           <li class="nav-item{{ request()->is('profile') ? ' active' : ''}}">

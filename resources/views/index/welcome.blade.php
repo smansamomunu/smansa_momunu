@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-6 ftco-animate">
+          <div class="col-md-6">
             <h1 class="mb-4">Pendidikan Karakter</h1>
             <p>Menguatkan Pendidikan Karakter Yang Selaras Dengan Kebudayaan Lokal. </p>
             <a href="#services" class="btn btn-primary">Ayo</a>
