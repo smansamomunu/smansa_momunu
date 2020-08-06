@@ -54,6 +54,9 @@
           <li class="nav-item{{ request()->is('materi') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('materi')}}">Materi</a>
           </li>
+          <li class="nav-item{{ request()->is('pengumuman') ? ' active' : ''}}">
+            <a class="nav-link" href="{{route('pengumuman')}}">Pengumuman</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Unduhan</a>
           </li>

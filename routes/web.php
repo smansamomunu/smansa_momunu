@@ -20,6 +20,7 @@ Route::get('/berita/{id}', 'BeritaController@show')->name('berita.show');
 Route::get('/akademik', 'AkademikController@index')->name('akademik');
 Route::get('/galeri', 'GaleriController@index')->name('galeri');
 Route::get('/materi', 'MateriController@index')->name('materi');
+Route::get('/pengumuman', 'PengumumanController@index')->name('pengumuman');
 
 
 Auth::routes();
