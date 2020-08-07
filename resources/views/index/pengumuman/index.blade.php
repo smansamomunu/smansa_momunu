@@ -34,9 +34,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="date text12">Sep 23, 2015</td>
+                                        <td class="date text12">Agu 7, 2020</td>
                                         <td class="name truncate text12"><a href="#">Meeting Notes.txt</a></td>
-                                        <td><button class="btn"><i class="fa fa-download"></i>  Unduh</button></td>
+                                        <td class="process text12"><i class="fa fa-download"></i><a href="........">   Unduh</a></td>
                                     </tr>
                                 </tbody>
                             </table>

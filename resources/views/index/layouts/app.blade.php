@@ -8,18 +8,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('index/images/favicon.png') }}"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-
     <link rel="stylesheet" href="{{asset('index/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/animate.css')}}">
-    
     <link rel="stylesheet" href="{{asset('index/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/magnific-popup.css')}}">
-
     <link rel="stylesheet" href="{{asset('index/css/aos.css')}}">
-
     <link rel="stylesheet" href="{{asset('index/css/ionicons.min.css')}}">
-    
     <link rel="stylesheet" href="{{asset('index/css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/icomoon.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/style.css')}}">
