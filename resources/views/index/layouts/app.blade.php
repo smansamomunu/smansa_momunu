@@ -24,8 +24,8 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-      <a class="navbar-brand" href="#"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+      <a class="navbar-brand" href="{{route('welcome')}}"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span style="background-image: url('{{url('index/icon/list.png')}}');" class="navbar-toggler-icon"></span>
       </button>

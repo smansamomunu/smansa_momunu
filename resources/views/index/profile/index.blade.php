@@ -35,7 +35,7 @@
     			<div class="col-md-6 align-items-stretch d-flex">
     				<div class="img img-video d-flex align-items-center" style="background-image: url('{{asset('index/images/about-2.jpg')}}');">
     					<div class="video justify-content-center">
-								<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+								<a href="https://www.youtube.com/watch?v=UkQbcEDuheM&t=34s" class="icon-video popup-youtube d-flex justify-content-center align-items-center">
 									<span class="ion-ios-play"></span>
 		  					</a>
 							</div>
