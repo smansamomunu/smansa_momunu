@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('index/images/favicon.png') }}"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great Vibes:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{asset('index/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/animate.css')}}">
@@ -24,13 +25,14 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-      <a class="navbar-brand" href="{{route('welcome')}}"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light ftco-navbar-light" style="background-color: #232323;" id="ftco-navbar">
+    <div class="container" style="background-color: #232323;">
+      <a class="navbar-brand" href="#page-top"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span style="background-image: url('{{url('index/icon/list.png')}}');" class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item{{ request()->is('/') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('welcome')}}">Beranda</a>
           </li>
@@ -60,6 +62,7 @@
           </li>
 
         </ul>
+        </div>
       </div>
     </nav>
     @yield('content')
