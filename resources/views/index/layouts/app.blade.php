@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('index/images/favicon.png') }}"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{asset('index/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/animate.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/owl.carousel.min.css')}}">
@@ -61,10 +61,9 @@
 
         </ul>
       </div>
-    </nav>    
+    </nav>
     @yield('content')
 
-    
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-4">
@@ -91,7 +90,6 @@
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
           <div class="col-md-2 col-lg-3">
