@@ -5,7 +5,7 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
+          <div class="col-md-9 text-center">
             <h1 class="mb-2 bread">BERITA</h1>
             <p class="breadcrumbs"><span class="mr-2"><a href="{{route('welcome')}}">Beranda <i class="ion-ios-arrow-forward"></i></a></span> <span>Berita <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
@@ -18,7 +18,7 @@
 			<div class="container">
 				<div class="row">
 				@foreach($beritas as $berita)
-		          <div class="col-md-6 col-lg-4 ftco-animate">
+		          <div class="col-md-6 col-lg-4">
 		            <div class="blog-entry">
 		              <a href="{{url('berita/'.$berita->id)}}" class="block-20 d-flex align-items-end" style="background-image: url('{{url('index/images/beritas/'.$berita->img)}}');">
 		              </a>

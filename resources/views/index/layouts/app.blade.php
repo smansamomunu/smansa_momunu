@@ -4,21 +4,17 @@
     <title>SMA Negeri 1 Momunu</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('index/images/favicon.png') }}"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-
     <link rel="stylesheet" href="{{asset('index/css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/animate.css')}}">
-    
     <link rel="stylesheet" href="{{asset('index/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/magnific-popup.css')}}">
-
     <link rel="stylesheet" href="{{asset('index/css/aos.css')}}">
-
     <link rel="stylesheet" href="{{asset('index/css/ionicons.min.css')}}">
-    
     <link rel="stylesheet" href="{{asset('index/css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/icomoon.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/style.css')}}">
@@ -28,35 +24,38 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-      <a class="navbar-brand" href="#"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+      <a class="navbar-brand" href="{{route('welcome')}}"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span style="background-image: url('{{url('index/icon/list.png')}}');" class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('/') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('welcome')}}">Beranda</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('profile') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('profile')}}">Profil</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('akademik') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('akademik')}}">Akademik</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('berita') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('berita')}}">Berita</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('galeri') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('galeri')}}">Galeri</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('materi') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('materi')}}">Materi</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('pengumuman') ? ' active' : ''}}">
+            <a class="nav-link" href="{{route('pengumuman')}}">Pengumuman</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Unduhan</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item{{ request()->is('login') ? ' active' : ''}}">
             <a class="nav-link" href="{{route('login')}}">Masuk</a>
           </li>
 
@@ -87,10 +86,8 @@
               <div class="block-21 mb-4 d-flex">
                 <a href="{{route('berita')}}" class="blog-img mr-4" style="background-image: url('{{url('/index/images/clipart_news2.png')}}');"></a>
                 <div class="text">
-                  <h3 class="heading"><a href="{{url('berita/')}}"> Berita </a></h3>
+                  <h3 class="heading"><a href="{{url('berita/')}}"> Index Berita </a></h3>
                   <div class="meta">
-                    <div><a><span class="icon-calendar"></span> </a></div>
-                    <div><a><span class="icon-person"></span> </a></div>
                   </div>
                 </div>
               </div>
