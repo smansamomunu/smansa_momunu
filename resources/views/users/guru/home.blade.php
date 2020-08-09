@@ -1,4 +1,4 @@
-@extends('users.admin.layouts.app')
+@extends('users.guru.layouts.app')
 @section('title')
 <title>Material Design Bootstrap</title>
 @endsection
@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-<main style="margin-top: 15px;">
+<main>
 
     <div class="container-fluid">
 

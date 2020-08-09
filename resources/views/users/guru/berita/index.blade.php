@@ -18,18 +18,19 @@
 
         <!-- Gird column -->
         <div class="col-md-12">
-          <h5 class="my-4 dark-grey-text font-weight-bold">Daftar Guru</h5>
+
+          <h5 class="my-4 dark-grey-text font-weight-bold">Daftar Berita</h5>
+
           <div class="card">
             <div class="card-body">
-              <a style="margin-top: 15px;" href="{{route('admin.guru.create')}}" class="btn btn-primary btn-sm">Tambah</a>
               <table id="dtMaterialDesignExample" class="table table-striped" cellspacing="0" width="100%">
                 <thead>
                   <tr>
                     <th>No
                     </th>
-                    <th>Nama
+                    <th>Title
                     </th>
-                    <th>Mapel
+                    <th>Last Update
                     </th>
                     <th>#
                     </th>
@@ -39,16 +40,16 @@
                   @php 
                     $no = 0
                   @endphp
-                  @foreach($gurus as $guru)
+                  @foreach($beritas as $berita)
                   @php 
                     $no++
                   @endphp
                   <tr>
                     <td>{{$no}}</td>
-                    <td>{{$guru->nama}}</td>
-                    <td>{{$guru->mapel}}</td>
+                    <td>{{$berita->title}}</td>
+                    <td>{{$berita->updated_at}}</td>
                     <td>
-                      <a href="{{url('admin/guru/'.$guru->id.'/edit')}}" class="btn-floating btn-primary"><i class="fas fa-edit"></i></a>
+                      <a href="{{url('admin/berita/'.$berita->id.'/edit')}}" class="btn-floating btn-primary"><i class="fas fa-edit"></i></a>
                       <a class="btn-floating btn-secondary"><i class="fas fa-trash-alt"></i></a>
                     </td>
                   </tr>
@@ -58,9 +59,9 @@
                   <tr>
                     <th>No
                     </th>
-                    <th>Nama
+                    <th>Title
                     </th>
-                    <th>Mapel
+                    <th>Last Update
                     </th>
                     <th>#
                     </th>

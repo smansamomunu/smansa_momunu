@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<main style="margin-top: -20px;">
+<main style="padding-top: 40PX;">
     <div class="container-fluid">
     <h5 class="my-4 dark-grey-text font-weight-bold">Tambah Guru</h5>
       <!-- Section: Inputs -->

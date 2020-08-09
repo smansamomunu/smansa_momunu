@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+home.blade.php<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -64,19 +64,7 @@
               <div class="collapsible-body">
                 <ul>
                   <li>
-                    <a href="{{route('admin.mapel.index')}}" class="waves-effect">Mata Pelajaran</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <a class="collapsible-header waves-effect arrow-r">
-                <i class="w-fa fas fa-users"></i>Users<i class="fas fa-angle-down rotate-icon"></i>
-              </a>
-              <div class="collapsible-body">
-                <ul>
-                  <li>
-                    <a href="{{route('admin.guru.index')}}" class="waves-effect">Guru</a>
+                    <a href="{{route('admin.mapel.index')}}" class="waves-effect">Materi</a>
                   </li>
                 </ul>
               </div>
@@ -116,7 +104,7 @@
               <i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Profile</span>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-              <a id="tmbl_logout" class="dropdown-item" href="#">Keluar</a>
+              <a class="dropdown-item" href="#">Log Out</a>
               <a class="dropdown-item" href="#">My account</a>
             </div>
           </li>
@@ -126,9 +114,7 @@
     </nav>
     <!-- Navbar -->
     </div>
-        {!! Form::open (['route'=>['logout'], 'method'=>'post', 'id'=>'logout']) !!}
-            @csrf
-        {!! Form::close() !!}
+
   </header>
   <!-- Main Navigation -->
 
@@ -162,25 +148,6 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="{{asset('users/js/mdb.min.js')}}"></script>
   <!-- Initializations -->
-
-  <script>
-        $('#tmbl_logout').on('click', function(){
-            let _token   = $('meta[name="csrf-token"]').attr('content');
-                $.ajax({
-                    type: 'POST',
-                    url: '{{route("logout")}}',
-                    data:{
-                        _token: _token
-                        },
-                    success:function(data)
-                    {
-                      location.reload(true);
-                    }
-                });
-                return false;
-            });
-        
-    </script>
   
   @yield('script')
 
