@@ -25,9 +25,9 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light ftco-navbar-light" style="background-color: #232323;" id="ftco-navbar">
-    <div class="container" style="background-color: #232323;">
-      <a class="navbar-brand" href="#page-top"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
+    <nav class="navbar navbar-expand-lg sticky-top ftco-navbar-light" style="background-color: #232323;" id="ftco-navbar">
+    <div class="container-fluid" style="background-color: #232323;">
+      <a class="navbar-brand" href="{{route('welcome')}}"><img style="max-height: 60px;" src="{{asset('index/images/buol.png')}}"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span style="background-image: url('{{url('index/icon/list.png')}}');" class="navbar-toggler-icon"></span>
       </button>

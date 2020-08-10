@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-6">
+          <div class="col-md-6 ftco-animate">
             <h1 class="mb-4">Pendidikan Karakter</h1>
             <p>Menguatkan Pendidikan Karakter Yang Selaras Dengan Kebudayaan Lokal. </p>
             <a href="#services" class="btn btn-primary">Ayo</a>
@@ -27,7 +27,7 @@
         </div>
         </div>
       </div>
-      
+
       <div class="slider-item" style="background-image:url({{asset('index/images/bg_4.jpg')}});">
         <div class="overlay"></div>
         <div class="container">
@@ -40,7 +40,7 @@
         </div>
         </div>
       </div>
-      
+
       <div class="slider-item" style="background-image:url({{asset('index/images/bg_6.jpg')}});">
         <div class="overlay"></div>
         <div class="container">
@@ -67,7 +67,7 @@
                 <h3 class="heading">Tenaga Pengajar Profesional</h3>
                 <p>Kualitas Pelajar Tergantung Siapa Pengajarnya, Maka SMA Negeri 1 Momunu Akan Senantiasa Mendorong Profesionalisme Tenaga Pendidik.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
             <div class="media block-6 d-block text-center">
@@ -78,7 +78,7 @@
                 <h3 class="heading">Belajar Dengan Nyaman</h3>
                 <p>Pembelajaran Yang Nyaman Adalah Salah Satu Kunci Keberhasilan Belajar, SMA Negeri 1 Momunu Terus Berusaha Menciptakan Suasana Pembelajaran Yang Nyaman.</p>
               </div>
-            </div>    
+            </div>
           </div>
           <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
             <div class="media block-6 d-block text-center">
@@ -89,7 +89,7 @@
                 <h3 class="heading">Buku &amp; Perpustakaan</h3>
                 <p>Buku Dan Perpustakan Adalah Suatu Fasilitas Yang Wajib Disediakan Institusi Pendidikan, Maka SMA Negeri 1 Momunu Telah Membangun Perpustakaan Buku dan Akan Terus Dikembangkan.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
             <div class="media block-6 d-block text-center">
@@ -100,12 +100,11 @@
                 <h3 class="heading">Ekstrakurikuler</h3>
                 <p>Ekstrakurikuler Adalah Pembelajaran Tambahan atau Minat Yang Telah Disediakan Oleh SMA Negeri 1 Momunu.</p>
               </div>
-            </div>      
+            </div>
           </div>
         </div>
       </div>
     </section>
-    
     <section class="ftco-section ftco-no-pt ftc-no-pb">
       <div class="container">
         <div class="row d-flex">
@@ -175,7 +174,6 @@
         </div>
       </div>
     </section>
-    
 
     <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{asset('index/images/bg_3.jpg')}});" data-stellar-background-ratio="0.5">
       <div class="container">
