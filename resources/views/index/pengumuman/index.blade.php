@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row no-gutters slider-text align-items-center justify-content-center">
       <div class="col-md-9 ftco-animate text-center">
-        <h1 class="mb-2 bread">PENGUMUMAN</h1>
+        <h1 class="mb-2 bread">Pengumuman</h1>
       </div>
     </div>
   </div>
@@ -28,15 +28,15 @@
                             	<thead>
                                     <tr>
                                         <th class="date text12">Tgl Unggah</th>
-                                        <th class="name truncate text12">Nama File</th>
+                                        <th class="name truncate text12">Judul Pengumuman</th>
                                         <th class="size text12">Lihat</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="date text12">Agu 7, 2020</td>
+                                        <td class="date text12">7 Agu, 2020</td>
                                         <td class="name truncate text12"><a href="#">Meeting Notes.txt</a></td>
-                                        <td class="process text12"><i class="fa fa-download"></i><a href="........">   Unduh</a></td>
+                                        <td class="process text12" href="#"><i class="fa fa-download"></i><a href="........">   Unduh</a></td>
                                     </tr>
                                 </tbody>
                             </table>
